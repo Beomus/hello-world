@@ -1,18 +1,144 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beomus Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/demo1.png" alt="No images yet">
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+          <li class="nav__item"><a class="nav__link" href="#work">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>beomus</strong>
+      </h1> 
+      <p class="section__subtitle section__subtitle--intro">random dev</p>
+      <img src="img/demo2.png" alt="no images yet" class="intro__img">
+    </section>
+    
+    <!--Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Python</h3>
+          <p>
+            a bunch of text to test out my css because for some reasons 
+            they are not rendering in the middle again
+            i extremely hate this about web dev or html or css because i just dont get it
+          </p>
+        </div> <!--close info-->
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+        <div class="service">
+          <h3>Machine Learning</h3>
+          <p>
+            a bunch of text to test out my css because for some reasons 
+            they are not rendering in the middle again
+            i extremely hate this about web dev or html or css because i just dont get it
+          </p>
+        </div> <!--close info-->
 
-</body>
+        <div class="service">
+          <h3>General Random stuff</h3>
+          <p>
+            a bunch of text to test out my css because for some reasons 
+            they are not rendering in the middle again
+            i extremely hate this about web dev or html or css because i just dont get it
+          </p>
+        </div> <!--close info-->
+      </div> <!--close main info-->
+      <a href="#work" class="btn">My Projects</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">who tf i am</h2>
+      <p class="section__subtitle section__subtitle--about">i am a person people bruv</p>
+
+      <div class="about-me__body">
+        <p>
+          More text here to check if my css is going to break 
+          because this thing is really really fragile
+          and much like my brain if it's gonna break
+          my brain wil also break completely
+        </p>
+        <p>
+          More text here to check if my css is going to break 
+          because this thing is really really fragile
+          and much like my brain if it's gonna break
+          my brain wil also break completely
+        </p>
+      </div>
+
+      <img src="img/demo3.png" alt="no images yet" class="about-me__img">
+    </section>
+
+    <!--My work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+
+      <p class="section__subtitle section__subtitle--work">a selection of work because work</p>
+
+      <div class="portfolio">
+        <!--portfolio item 1-->
+        <a href="src/portfolio-item-01.html" class="portfolio__item">
+          <img src="img/portfolio-01.png" alt="no images yet" class="portfolio__img">
+        </a>
+
+        <!--portfolio item 1-->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-01.png" alt="no images yet" class="portfolio__img">
+        </a>
+
+        <!--portfolio item 1-->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-01.png" alt="no images yet" class="portfolio__img">
+        </a>
+
+      </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto:trunghau60@gmail.com" class="footer__link">Send me an email</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Beomus">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com/in/trunghaulelam/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  
+    <script src="js/index.js"></script>
+  </body>
 </html>
