@@ -129,7 +129,8 @@ blockquote {
   font-size: 90%;
   margin: 2em 0;
   padding: 0 1.5em;
-  border-left: 1px dotted var(--clr-dark);
+  border-left: 0.5px dotted var(--clr-dark);
+  border-block: 0.5px dotted var(--clr-dark);
 }
 pre { overflow-x: auto;}
 code {
