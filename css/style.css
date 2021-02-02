@@ -27,7 +27,7 @@ body {
 /* menu section */
 #menu {
   margin: 0 auto;
-  width: 85%;
+  width: 90%;
   height: 5.5em;
   border-bottom: 2px solid var(--clr-dark);
 }
@@ -70,7 +70,7 @@ body {
 /* content section */
 #content {
   margin: 2em auto;
-  max-width: 800px;
+  max-width: 750px;
 }
 
 h1, h2, p, ul { margin: 1em 0; }
