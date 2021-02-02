@@ -3,140 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beomus Portfolio</title>
+    <title>Hau Le</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
-    <header>
-      <div class="logo">
-        <img src="img/logo.png" alt="logo image">
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="#home">HOME</a></li>
-          <li class="nav__item"><a class="nav__link" href="#skills">SKILL SET</a></li>
-          <li class="nav__item"><a class="nav__link" href="#about">ABOUT ME</a></li>
-          <li class="nav__item"><a class="nav__link" href="#project">PROJECTS</a></li>
+    <div id="container">
+      <!-- Menu Section -->
+      <div id="menu">
+        <div class="site-title">Hau Le</div>
+        <ul class="links no-print">
+          <li><b>Home</b></li>
+          <li><a href="./Resume_CV.html" title="Go to my Resume/CV">Resume/CV</a></li>
+          <li><a href="./Projects.html" title="Projects I&#39;ve explored">Projects</a></li>
+          <li><a href="./Technical Writing.html" title="Thoughts I&#39;ve thought">Tech Writing</a></li>
+          <li><a href="./Thoughts.html" title="Stuff I&#39;ve written">Thoughts</a></li>
+          <li><a href="./Gallery.html" title="Photos I&#39;ve taken">Gallery</a></li>
+          <li><a href="mailto:trunghau60@gmail.com" title="Email me">Email</a></li>
         </ul>
-      </nav>
-    </header>
-
-    <!-- Introduction -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>HAU LE</strong>
-      </h1> 
-      <p class="section__subtitle section__subtitle--intro">Aspiring Software Developer</p>
-      <img src="img/my_face.JPG" alt="my face" class="intro__img">
-    </section>
-    
-    <!--Skills-->
-    <section class="my-skills" id="skills">
-      <h2 class="section__title section__title--skills">SKILL SET</h2>
-      <div class="skills">
-        <div class="skill">
-          <h3>Python</h3>
-          <p>
-            Python skills including Data Types and Variables, File Handling, Data Structures,
-            OOP, Iterators and Generators, Web Scraping, and basic Scripting. 
-            Included libraries such as os, time, argparse, etc.
-          </p>
-        </div> 
-
-        <div class="skill">
-          <h3>Machine Learning</h3>
-          <p>
-            Machine learning skills including understanding of Computer Vision,
-            Time Series Analysis, Natural Language Processing and Deep Learning. 
-            Included frameworks such as sci-kit, TensorFlow, PyTorch, OpenCV, etc.
-          </p>
-        </div> 
-
-        <div class="skill">
-          <h3>Data Analysis</h3>
-          <p>
-            Data Analysis skills including Probablity and Statistics, Data Modeling,
-            Hypothesis Testing, and Data Visualization. Frameworks including pandas,
-            matplotlib, seaborn, numpy. Some experience with SQL and Tableau.
-          </p>
-        </div> <!--close info-->
-      </div> <!--close main info-->
-      <a href="#project" class="btn">My Projects</a>
-    </section>
-
-    <!--About me-->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">More about me</h2>
-      <p class="section__subtitle section__subtitle--about">i am a person people bruv</p>
-
-      <div class="about-me__body">
-        <p>
-          More text here to check if my css is going to break 
-          because this thing is really really fragile
-          and much like my brain if it's gonna break
-          my brain wil also break completely
-        </p>
-        <p>
-          More text here to check if my css is going to break 
-          because this thing is really really fragile
-          and much like my brain if it's gonna break
-          my brain wil also break completely
-        </p>
+        <ul class="links print-only">
+          <li><a href="https://www.thatshau.com/">thatshau.com</a>
+          </li><li><a href="mailto:trunghau60@gmail.com">trunghau60@gmail.com</a></li>
+        </ul>
       </div>
 
-      <img src="img/personal_pic.jpeg" alt="my personal picture" class="about-me__img">
-    </section>
-
-    <!--My work-->
-    <section class="my-work" id="project">
-      <h2 class="section__title section__title--work">My work</h2>
-
-      <p class="section__subtitle section__subtitle--work">a selection of work because work</p>
-
-      <div class="portfolio">
-        <!--portfolio item 1-->
-        <a href="src/portfolio-item-01.html" class="portfolio__item">
-          <img src="img/nerual_net.png" alt="style transfer" class="portfolio__img">
-        </a>
-
-        <!--portfolio item 2-->
-        <a href="#" class="portfolio__item">
-          <img src="img/ts_analysis.png" alt="data analysis" class="portfolio__img">
-        </a>
-
-        <!--portfolio item 3-->
-        <a href="#" class="portfolio__item">
-          <img src="img/sorting_menu.png" alt="no images yet" class="portfolio__img">
-        </a>
+      <div id="content">
+        <img class="right" src="./img/_DSC5335.jpg" alt="Me in the snow!" title="Me in the snow!">
+        <h1>Hau Le</h1>
+        <p>I am a university student, currently living in Tokyo Japan and stepping into the technical industry. Follow my <a href="https://www.thatshau.com/writings/">process of learning to program</a> or <a href="https://thatshau.com/writings/Thoughts/">my random thoughts</a>, or check out <a href="https://aliensintheapple.com/">some photos</a>.</p>
+        <p>I have a strong interest in programming and especially Artificial Intelligence. Read my <a href="./Resume_CV.html">resume/CV</a> to learn more.</p>
+        <h2 id="websites">Other places to find me</h2>
+        <ul>
+          <li><a href="https://www.github.com/Beomus/">GitHub</a>: essential for developers <del>or so I was told</del>.</li>
+          <li><a href="https://www.linkedin.com/in/trunghaulelam">LinkedIn</a>: important for professionals <del>or so I was advised</del>.</li>
+          <li><a href="https://www.thatshau.com/">This webpage</a>: because it is the 21st century.</li>
+        </ul>
+        <h2 id="projects">Projects I’ve played around with</h2>
+        <p>Some projects that I found on YouTube or played around with the documentation. Check them out <a href="https://www.thatshau.com/projects/">here</a>!</p>
       </div>
-    </section>
-
-    <!--Footer-->
-    <footer class="footer">
-      <a href="mailto:trunghau60@gmail.com" class="footer__link">Send me an email</a>
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/Beomus">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://linkedin.com/in/trunghaulelam/">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-      </ul>
-    </footer>
-  
-    <script src="js/index.js"></script>
+    </div>
   </body>
 </html>
