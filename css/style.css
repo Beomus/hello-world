@@ -1,8 +1,8 @@
 /* custom properties */
 
 :root {
-  --ff-secondary: 'PT Serif', serif;
-  --ff-primary: 'Balsamiq Sans', cursive;
+  --ff-secondary: 'Balsamiq Sans', cursive;
+  --ff-primary: 'PT Serif', serif;
 
   --clr-dark: #2c2a2a;
   --clr-light: #dddbdb;
