@@ -169,7 +169,7 @@ td { padding-right: 2rem; }
 
 /* media query */
 @media (max-width: 600px) {
-  body { font-size: 13px; }
+  body { font-size: 14px; }
   #menu { height: 7.5em ;}
   #menu .site-title { float: none; }
   #menu ul.links { 
