@@ -142,8 +142,8 @@ code {
 img { max-width: 100%; }
 img.right {
   float: right;
-  width: 40%;
-  margin: 1.5em 0 1.5em 2em;
+  width: 55%;
+  margin: 4.5em 0 1.5em 1em;
 }
 
 /* table bits */
