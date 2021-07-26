@@ -3,7 +3,6 @@ import Grid from '@material-ui/core/Grid';
 import styled from 'styled-components'
 import { Button, Divider, Theme, Typography, makeStyles, Paper, createStyles, Box } from '@material-ui/core';
 import profile from '../imgs/square_profile.png';
-import resume from '../Hau_Le_Resume.pdf'
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const buttonStyles = makeStyles((theme: Theme) => ({
