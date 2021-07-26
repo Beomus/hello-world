@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles, Theme, useTheme, withStyles, ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import { AppBar, Box, Grid, Tabs, Tab, Typography } from '@material-ui/core'
+import { AppBar, Grid, Tabs, Tab, Typography } from '@material-ui/core'
 import { FaIdCard, FaSchool, FaLaptopCode } from 'react-icons/fa'
 import styled from 'styled-components';
 
@@ -28,7 +28,7 @@ function TabPanel(props: TabPanelProps) {
       {...other}
     >
       {value === index && (
-        <Grid container>
+        <Grid container style={{margin: '24px'}}>
           {children}
         </Grid>
       )}
