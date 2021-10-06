@@ -85,7 +85,7 @@ export default function About() {
   };
   
   return (
-    <Grid container direction={'column'}>
+    <Grid container direction={'row'}>
       <Grid item xs>
         <Grid container>
           <CustomTypography variant="h3">Hello there 👋</CustomTypography>
