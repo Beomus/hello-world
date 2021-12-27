@@ -3,7 +3,7 @@ import { Typography, Grid, withStyles, makeStyles, Theme, Tabs, Tab } from '@mat
 import styled from 'styled-components'
 import wfh from '../../imgs/wfh.JPG';
 import futo from '../../imgs/ito.JPG'
-import koganei from '../../imgs/koganei.jpg'
+import koganei from '../../imgs/koganei.png'
 import shimoda from '../../imgs/shimoda.JPG'
 
 const CustomTypography = withStyles({

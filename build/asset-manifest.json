@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.js": "/beomus.github.io/static/js/main.42652c90.js",
     "static/media/koganei.jpg": "/beomus.github.io/static/media/koganei.ac9bb8fe420239b9f1d4.jpg",
     "static/media/square_profile.png": "/beomus.github.io/static/media/square_profile.5a4ad9bc597dc2a4e5a0.png",
@@ -19,5 +20,32 @@
   },
   "entrypoints": [
     "static/js/main.42652c90.js"
+=======
+    "main.js": "/beomus.github.io/static/js/main.b9ee23a2.chunk.js",
+    "main.js.map": "/beomus.github.io/static/js/main.b9ee23a2.chunk.js.map",
+    "runtime-main.js": "/beomus.github.io/static/js/runtime-main.a196255a.js",
+    "runtime-main.js.map": "/beomus.github.io/static/js/runtime-main.a196255a.js.map",
+    "static/js/2.74b8931e.chunk.js": "/beomus.github.io/static/js/2.74b8931e.chunk.js",
+    "static/js/2.74b8931e.chunk.js.map": "/beomus.github.io/static/js/2.74b8931e.chunk.js.map",
+    "index.html": "/beomus.github.io/index.html",
+    "static/js/2.74b8931e.chunk.js.LICENSE.txt": "/beomus.github.io/static/js/2.74b8931e.chunk.js.LICENSE.txt",
+    "static/media/binarytree.6f55d0ca.png": "/beomus.github.io/static/media/binarytree.6f55d0ca.png",
+    "static/media/ito.20544584.JPG": "/beomus.github.io/static/media/ito.20544584.JPG",
+    "static/media/koganei.8cee273e.png": "/beomus.github.io/static/media/koganei.8cee273e.png",
+    "static/media/logo_large.3c92cb85.png": "/beomus.github.io/static/media/logo_large.3c92cb85.png",
+    "static/media/neuralnet.5cb9e47f.png": "/beomus.github.io/static/media/neuralnet.5cb9e47f.png",
+    "static/media/numpy.d823b894.png": "/beomus.github.io/static/media/numpy.d823b894.png",
+    "static/media/personalsite.9a63663d.png": "/beomus.github.io/static/media/personalsite.9a63663d.png",
+    "static/media/seaborn.68b552ef.png": "/beomus.github.io/static/media/seaborn.68b552ef.png",
+    "static/media/shimoda.7d2e69ce.JPG": "/beomus.github.io/static/media/shimoda.7d2e69ce.JPG",
+    "static/media/square_profile.5a4ad9bc.png": "/beomus.github.io/static/media/square_profile.5a4ad9bc.png",
+    "static/media/stockdb.7249a866.jpg": "/beomus.github.io/static/media/stockdb.7249a866.jpg",
+    "static/media/wfh.9dc02f05.JPG": "/beomus.github.io/static/media/wfh.9dc02f05.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a196255a.js",
+    "static/js/2.74b8931e.chunk.js",
+    "static/js/main.b9ee23a2.chunk.js"
+>>>>>>> 0b34d09e1122a2b36407475a45d05fb72b01a550
   ]
 }
