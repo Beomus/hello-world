@@ -25,7 +25,6 @@ const CustomTab = withStyles({
   }
 })(Tab);
 
-
 interface TabPanelProps {
   children?: React.ReactNode;
   index: any;
@@ -85,7 +84,7 @@ export default function About() {
   };
   
   return (
-    <Grid container direction={'column'}>
+    <Grid container direction={'row'}>
       <Grid item xs>
         <Grid container>
           <CustomTypography variant="h3">Hello there 👋</CustomTypography>
@@ -97,7 +96,7 @@ export default function About() {
             I brew coffee and cook daily, play guitar every other day, and take pictures very occasionally.
           </CustomTypography>
           <CustomTypography variant="body1" align='left'>
-            Currently, I am a AI Engineer Intern at Incubit and I am also looking for full-time opportunities.
+            I am currently working at <a href='https://home.kpmg/jp/en/home/about/kit.html'>KPMG Ignition Tokyo</a> as a Business Analyst Intern and I am also looking for full-time opportunities.
             Please feel free to contact me via LinkedIn or email if you have a fitting position!
           </CustomTypography>
         </Grid>

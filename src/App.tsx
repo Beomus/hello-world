@@ -43,7 +43,7 @@ const App = () => {
           <SideBar />
         </Grid>
         
-        <Grid item xs>
+        <Grid item xs className={classes.root}>
           <FullWidthTabs />
         </Grid>
       </Grid>

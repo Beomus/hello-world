@@ -14,10 +14,10 @@ import {
   Typography
 } from '@material-ui/core';
 
-import { SiPytorch, SiGithub, SiPython, SiGit, SiUbuntu } from 'react-icons/si';
+import { SiPytorch, SiGithub, SiPython, SiGit, SiUbuntu, SiAzuredevops, SiMicrosoftazure, SiDocker } from 'react-icons/si';
 
 import incubit_logo from '../../imgs/logo_large.png';
-
+import kpmg_logo from '../../imgs/KPMG_logo.png';
 
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -35,6 +35,15 @@ const StyledAccordionSummary = styled(AccordionSummary)`
       min-height: 48;
       margin: 0;
     }
+  }
+`
+
+const StyledAccordion = styled(Accordion)`
+  .MuiAccordion-root {
+    &.Mui-expanded {
+      margin: 0 0 0 0;
+    }
+    margin: 0;
   }
 `
 
@@ -63,11 +72,12 @@ export default function Experience() {
               <Icon icon={<SiGit size={20} color={'#ffffff'} />} label='Git'/>
               <Icon icon={<SiUbuntu size={20} color={'#ffffff'} />} label='Ubuntu'/>
           </CardContent>
-          <Accordion>
+          <StyledAccordion>
             <StyledAccordionSummary 
               expandIcon={<ExpandMoreIcon />}
+              style={{paddingLeft: '30px'}}
             >
-              <Typography variant='body1'>More details</Typography>
+              <Typography variant='body1'>Details</Typography>
             </StyledAccordionSummary>
             <AccordionDetails>
             <ul>
@@ -84,12 +94,94 @@ export default function Experience() {
               </ListItem>
               <ListItem>
                 <Typography variant="body1">
-                  Maintain and update the main codebase, enabling faster setups and launches for experiments and hyperparameters tuning
+                  Maintain and update the main codebase, enabling faster setups and launches for experiments and hyperparameters tuning.
                 </Typography>
               </ListItem>
             </ul>
             </AccordionDetails>
-          </Accordion>
+          </StyledAccordion>
+        </Card>
+      </Grid>
+
+
+      <Grid item>
+        <Card className={classes.root} raised={true}>
+          <CardHeader
+            avatar={
+              <Logo src={kpmg_logo}/>
+            }
+            style={{paddingBottom: '20px'}}
+            title={<Header variant='h4'>Business Analyst Intern</Header>}
+            subheader={<Header variant='body2'>September 2021 - February 2021</Header>}
+          />
+          <CardContent style={{paddingLeft: '24px'}}>
+              <Typography variant="body1" color="textSecondary">
+              TLDR: worked directly with Product Owner using Agile methodology.
+              </Typography>
+              <Icon icon={<SiPython size={20} color={'#ffffff'} />} label='Python'/>
+              <Icon icon={<SiPytorch size={20} color={'#ffffff'} />} label='PyTorch'/>
+              <Icon icon={<SiAzuredevops size={20} color={'#ffffff'} />} label='Azure DevOps'/>
+              <Icon icon={<SiGit size={20} color={'#ffffff'} />} label='Git'/>
+              <Icon icon={<SiMicrosoftazure size={20} color={'#ffffff'} />} label='Azure ML'/>
+              <Icon icon={<SiDocker size={20} color={'#ffffff'} />} label='Docker'/>
+          </CardContent>
+          <Accordion>
+            <StyledAccordionSummary 
+              expandIcon={<ExpandMoreIcon />}
+              style={{paddingLeft: '30px', margin: 0}}
+            >
+              <Typography variant='body1'>Details</Typography>
+            </StyledAccordionSummary>
+            <AccordionDetails>
+            <ul>
+              <ListItem>
+                <Typography variant="body1">
+                  Participated and lead Agile workflow meetings including sprint planning, retrospective, estimation planning, and daily.
+                </Typography>
+              </ListItem>
+              <ListItem>
+                <Typography variant="body1">
+                Describe and illustrate business goal, current business flow and issues clearly in Epics, Features, and User Stories.
+                </Typography>
+              </ListItem>
+              <ListItem>
+                <Typography variant="body1">
+                Create business requirements documents, system configuration documents, detailed functional design documents, test plans and test cases, user training documents and implementation documents.
+                </Typography>
+              </ListItem>
+              <ListItem>
+                <Typography variant="body1">
+                Validate new features from the user’s point of view, describe requirements for development team members to implement, and report the progress to the Product Owner regularly.
+                </Typography>
+              </ListItem>
+            </ul>
+            </AccordionDetails>
+            </Accordion>
+
+          <StyledAccordion>
+            <StyledAccordionSummary 
+              expandIcon={<ExpandMoreIcon />}
+              style={{paddingLeft: '30px'}}
+            >
+              <Typography variant='body1'>Additional Project: Document Understanding</Typography>
+            </StyledAccordionSummary>
+            <AccordionDetails>
+            <ul>
+
+              <ListItem>
+                <Typography variant="body1" >
+                  Worked and finetune on Document Layout Segmentation models: LayoutLM, LayoutXLM, LayoutLMv2, LayoutParser, etc.
+                </Typography>
+              </ListItem>
+              <ListItem>
+                <Typography variant="body1">
+                  Develop service for document processing with Python, Docker, and Azure Machine Learning.
+                </Typography>
+              </ListItem>
+
+            </ul>
+            </AccordionDetails>
+          </StyledAccordion>
         </Card>
       </Grid>
       

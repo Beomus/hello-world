@@ -28,7 +28,7 @@ function TabPanel(props: TabPanelProps) {
       {...other}
     >
       {value === index && (
-        <Grid container style={{margin: '24px'}}>
+        <Grid container style={{margin: '24px', width: 'auto'}}>
           {children}
         </Grid>
       )}
@@ -175,6 +175,3 @@ export default function FullWidthTabs() {
     </Grid>
   );
 }
-
-
-
