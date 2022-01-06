@@ -69,8 +69,9 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const Image = styled.img`
-  max-height: 500px;
-  width: 100%;
+  max-height: 650px;
+  width: 300px;
+  flex: 1;
   object-fit: cover;
 `
 
@@ -86,19 +87,32 @@ export default function About() {
   return (
     <Grid container direction={'row'}>
       <Grid item xs>
-        <Grid container>
-          <CustomTypography variant="h3">Hello there 👋</CustomTypography>
+        <Grid container direction='column'>
+          <Grid item xs>
+            <CustomTypography variant="h3">Hello there 👋</CustomTypography>
+          </Grid>
+          <Grid item xs>
           <CustomTypography variant="body1" align='left'>
             My name is Hau, a recent graduate at Tokyo International University with a Bachelor in Business Economics.
             I have a strong interest in technology, mainly in software development and data science.
           </CustomTypography>
+          </Grid>
+          <Grid item xs>
           <CustomTypography variant="body1" align='left'>
             I brew coffee and cook daily, play guitar every other day, and take pictures very occasionally.
           </CustomTypography>
+          </Grid>
+          <Grid item xs>
           <CustomTypography variant="body1" align='left'>
             I am currently working at <a href='https://home.kpmg/jp/en/home/about/kit.html'>KPMG Ignition Tokyo</a> as a Business Analyst Intern and I am also looking for full-time opportunities.
             Please feel free to contact me via LinkedIn or email if you have a fitting position!
           </CustomTypography>
+          </Grid>
+          <Grid item xs>
+          <CustomTypography variant="body2" align='left'>
+            Check out my other <a href='https://beomus-portfolio.herokuapp.com/'>Gallery</a> and maybe schedule a photoshoot 😉!
+          </CustomTypography>
+          </Grid>
         </Grid>
       </Grid>
       
@@ -106,11 +120,10 @@ export default function About() {
         <Grid container style={{justifyContent: "center"}} spacing={1}>
           <div className={classes.root}>
             <CustomTabs
-              centered
               value={value}
               onChange={handleChange}
               variant="scrollable"
-              scrollButtons="on"
+              scrollButtons="auto"
             >
               <CustomTab label={<LabelText>Futo (富戸)</LabelText>} {...a11yProps(0)} />
               <CustomTab label={<LabelText>WFH</LabelText>} {...a11yProps(1)} />
