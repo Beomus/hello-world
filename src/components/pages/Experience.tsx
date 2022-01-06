@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
-      maxWidth: '100%',
+      width: '100%',
     },
   }),
 );
@@ -51,8 +51,8 @@ export default function Experience() {
   const classes = useStyles();
 
   return (
-    <Grid container spacing={3}>
-      <Grid item>
+    <Grid container spacing={4}>
+      <Grid item xs={12}>
         <Card className={classes.root} raised={true}>
           <CardHeader
             avatar={
@@ -104,7 +104,7 @@ export default function Experience() {
       </Grid>
 
 
-      <Grid item>
+      <Grid item xs={12}>
         <Card className={classes.root} raised={true}>
           <CardHeader
             avatar={

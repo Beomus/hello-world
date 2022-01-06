@@ -41,7 +41,6 @@ import numpy from '../../imgs/numpy.png';
 const useStyles = makeStyles({
   root: {
     maxWidth: 500,
-    minWidth: 320,
     minHeight: 300,
   },
   media: {
