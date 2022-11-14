@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styled from 'styled-components'
 import { Button, Divider, Theme, Typography, makeStyles, Paper, createStyles, Box } from '@material-ui/core';
-import profile from '../imgs/square_profile.png';
+import profile from '../imgs/square_profile.jpeg';
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const buttonStyles = makeStyles((theme: Theme) => ({
@@ -29,7 +29,7 @@ const buttonStyles = makeStyles((theme: Theme) => ({
 const paperStyles = makeStyles((theme: Theme) => 
   createStyles({
     root: {
-      background: '#D5E8F5',
+      background: '#bee3fb',
       alignSelf: 'center',
       position: 'fixed',
       [theme.breakpoints.down('md')]: {
@@ -123,6 +123,7 @@ const SideBar = () => {
               className={classes.dl}
               variant="contained"
               size="large"
+              disabled
               onClick={() => window.open('https://drive.google.com/file/d/1bNVjkIDsgPOqcKj79CdlYLRsXSGwgnnh/view?usp=sharing', '_blank')}
             >
               <FaFileDownload size={20} color={'#ffffff'}/>
@@ -143,7 +144,7 @@ const CustomButton = styled(Button)`
 `
 
 const SideBarWrapper = styled(Grid)`
-  background: #D5E8F5;
+  background: #bee3fb;
   height: 100vh;
   padding: 8px;
 `

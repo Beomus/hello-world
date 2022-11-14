@@ -116,7 +116,7 @@ export default function Experience() {
           />
           <CardContent style={{paddingLeft: '24px'}}>
               <Typography variant="body1" color="textSecondary">
-              TLDR: worked directly with Product Owner using Agile methodology.
+              TLDR: worked directly with Product Owner using Agile.
               </Typography>
               <Icon icon={<SiPython size={20} color={'#ffffff'} />} label='Python'/>
               <Icon icon={<SiPytorch size={20} color={'#ffffff'} />} label='PyTorch'/>
@@ -124,6 +124,7 @@ export default function Experience() {
               <Icon icon={<SiGit size={20} color={'#ffffff'} />} label='Git'/>
               <Icon icon={<SiMicrosoftazure size={20} color={'#ffffff'} />} label='Azure ML'/>
               <Icon icon={<SiDocker size={20} color={'#ffffff'} />} label='Docker'/>
+              <Icon icon={<SiGithub size={20} color={'#ffffff'} />} label='Docker'/>
           </CardContent>
           <Accordion>
             <StyledAccordionSummary 
@@ -176,6 +177,12 @@ export default function Experience() {
               <ListItem>
                 <Typography variant="body1">
                   Develop service for document processing with Python, Docker, and Azure Machine Learning.
+                </Typography>
+              </ListItem>
+
+              <ListItem>
+                <Typography variant="body1">
+                  Find it on <a href='https://huggingface.co/beomus/layoutxlm'>HuggingFace🤗</a>
                 </Typography>
               </ListItem>
 

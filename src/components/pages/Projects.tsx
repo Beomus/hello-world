@@ -21,11 +21,12 @@ import {
   SiCircleci, 
   SiReact, 
   SiTypescript, 
-  SiMaterialUi, 
-  SiStyledComponents,
+  SiMaterialui, 
+  SiStyledcomponents,
   SiPostgresql,
   SiJupyter,
-
+  SiChakraui,
+  
 } from 'react-icons/si';
 import { AiOutlineExperiment } from 'react-icons/ai'
 
@@ -36,6 +37,7 @@ import stockdb from '../../imgs/stockdb.jpg';
 import seaborn from '../../imgs/seaborn.png';
 import pandas from '../../imgs/pandas.png';
 import numpy from '../../imgs/numpy.png';
+import koganei from '../../imgs/koganei.png'
 
 
 const useStyles = makeStyles({
@@ -138,13 +140,41 @@ export default function Projects() {
           </CardActionArea>
           <CardActions style={{flexWrap: 'wrap'}}>
             <Icon icon={<SiTypescript size={20} color={'#ffffff'} />} label='TypeScript'/>
-            <Icon icon={<SiMaterialUi size={20} color={'#ffffff'} />} label='Material UI'/>
             <Icon icon={<SiReact size={20} color={'#ffffff'} />} label='React'/>
-            <Icon icon={<SiStyledComponents size={20} color={'#ffffff'} />} label='Styled Components'/>
+            <Icon icon={<SiStyledcomponents size={20} color={'#ffffff'} />} label='Styled'/>
+            <Icon icon={<SiMaterialui size={20} color={'#ffffff'} />} label='Material UI'/>
           </CardActions>
         </Card>
       </Grid>
       
+      <Grid item xs={12} sm={6}>
+        <Card 
+          className={classes.root} 
+          raised={true}
+          onClick={() => window.open('https://github.com/Beomus/portfolio', '_blank')}
+        >
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={koganei}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Personal porfolio
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Worked on a poorly-maintained photography portfolio because editing pictures takes a lot of time.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions style={{flexWrap: 'wrap'}}>
+            <Icon icon={<SiTypescript size={20} color={'#ffffff'} />} label='TypeScript'/>
+            <Icon icon={<SiReact size={20} color={'#ffffff'} />} label='React'/>
+            <Icon icon={<SiStyledcomponents size={20} color={'#ffffff'} />} label='Styled'/>
+            <Icon icon={<SiChakraui size={20} color={'#ffffff'} />} label='Chakra Ui'/>        
+          </CardActions>
+        </Card>
+      </Grid>
       
       <Grid item xs={12} sm={6}>
         <Card 

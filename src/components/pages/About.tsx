@@ -69,8 +69,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const Image = styled.img`
-  max-height: 650px;
-  width: 300px;
+  max-height: 500px;
   flex: 1;
   object-fit: cover;
 `
@@ -86,43 +85,38 @@ export default function About() {
   
   return (
     <Grid container direction={'row'}>
-      <Grid item xs>
+      <Grid item xs={12}>
         <Grid container direction='column'>
           <Grid item xs>
             <CustomTypography variant="h3">Hello there 👋</CustomTypography>
           </Grid>
           <Grid item xs>
           <CustomTypography variant="body1" align='left'>
-            My name is Hau, a recent graduate at Tokyo International University with a Bachelor in Business Economics.
+            My name is Hau, I graduated from Tokyo International University with a Bachelor in Business Economics in 2021.{"\n"}
             I have a strong interest in technology, mainly in software development and data science.
-          </CustomTypography>
-          </Grid>
-          <Grid item xs>
-          <CustomTypography variant="body1" align='left'>
             I brew coffee and cook daily, play guitar every other day, and take pictures very occasionally.
           </CustomTypography>
           </Grid>
           <Grid item xs>
           <CustomTypography variant="body1" align='left'>
-            I am currently working at <a href='https://home.kpmg/jp/en/home/about/kit.html'>KPMG Ignition Tokyo</a> as a Business Analyst Intern and I am also looking for full-time opportunities.
-            Please feel free to contact me via LinkedIn or email if you have a fitting position!
+            I am currently working at <a href='https://home.kpmg/jp/en/home/about/kit.html'>KPMG Ignition Tokyo</a> as a Business Analyst.
           </CustomTypography>
           </Grid>
           <Grid item xs>
-          <CustomTypography variant="body2" align='left'>
-            Check out my other <a href='https://beomus-portfolio.herokuapp.com/'>Gallery</a> and maybe schedule a photoshoot 😉!
+          <CustomTypography variant="body1" align='left'>
+            Also, check out my <a href='https://beomus-portfolio.herokuapp.com/'>Gallery</a>.
           </CustomTypography>
           </Grid>
         </Grid>
       </Grid>
       
-      <Grid item xs={12}>
+      <Grid item xs>
         <Grid container style={{justifyContent: "center"}} spacing={1}>
           <div className={classes.root}>
             <CustomTabs
               value={value}
               onChange={handleChange}
-              variant="scrollable"
+              variant="fullWidth"
               scrollButtons="auto"
             >
               <CustomTab label={<LabelText>Futo (富戸)</LabelText>} {...a11yProps(0)} />
