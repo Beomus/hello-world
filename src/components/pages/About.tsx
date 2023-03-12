@@ -104,7 +104,7 @@ export default function About() {
           </Grid>
           <Grid item xs>
           <CustomTypography variant="body1" align='left'>
-            Also, check out my <a href='https://beomus-portfolio.herokuapp.com/'>Gallery</a>.
+            Also, check out my <a href='https://www.thatshau.com/portfolio/'>Gallery</a>.
           </CustomTypography>
           </Grid>
         </Grid>
