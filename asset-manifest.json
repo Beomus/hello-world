@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/beomus.github.io/static/js/main.512312e8.js",
+    "main.js": "/beomus.github.io/static/js/main.6c0d8d69.js",
     "static/media/koganei.png": "/beomus.github.io/static/media/koganei.8cee273e1dc30807139e.png",
     "static/media/ito.JPG": "/beomus.github.io/static/media/ito.20544584573fe5774d9e.JPG",
     "static/media/wfh.JPG": "/beomus.github.io/static/media/wfh.9dc02f0562f6ab047aa2.JPG",
@@ -15,9 +15,9 @@
     "static/media/personalsite.png": "/beomus.github.io/static/media/personalsite.9a63663d99c0c16d5ca4.png",
     "static/media/numpy.png": "/beomus.github.io/static/media/numpy.d823b89426b7d74e1eba.png",
     "index.html": "/beomus.github.io/index.html",
-    "main.512312e8.js.map": "/beomus.github.io/static/js/main.512312e8.js.map"
+    "main.6c0d8d69.js.map": "/beomus.github.io/static/js/main.6c0d8d69.js.map"
   },
   "entrypoints": [
-    "static/js/main.512312e8.js"
+    "static/js/main.6c0d8d69.js"
   ]
 }
